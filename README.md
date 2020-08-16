@@ -1,1 +1,3 @@
-# ProfitSplitter_Using_Blockchain-Solidity-Contracts
+# Profit Splitter with Solidity Contracts
+
+This repository, contains three solidity contracts. Each contract splits a company's earnings in three different ways. The first contract, Associate Profit Splitter, splits profits evenly among associate level employees. The second contract, Tiered Profit Splitter, distributes profits among different employee tiers. For example, the CEO gets 60%, CTO 25%, and the remaining 15% goes to lower tier employees. Last is the deferred equity plan, this contract allows for shares of a company to be distributed evenly throughout a period of time. For example, if a company requires that 1000 shares be distributed throughout a vesting period of 4 years, this contract will provide the necessary requirements to release the funds after each year the employee remains in the company.
