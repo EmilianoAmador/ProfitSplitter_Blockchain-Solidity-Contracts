@@ -5,6 +5,8 @@ This repository contains three solidity contracts. Each contract splits a compan
 
 ## Preliminary Steps For Deploying The Contracts
 First, open the Remix web page ![http://remix.ethereum.org](Images/remix.png) and link it to the Metamask ![](Images/metamask.png) chrome plug in. On the Metamask plugin window,  choose the network that will be used to send transactions. Considering this is a testing demonstration of the contract's functionalities, Ganache ![](Images/ganache.png) was used to set up a test network on the local machine; therefore, Metamask's network was set to localhost 8545 as seen on the image below. Lastly, set the account on the Metamask where funds will be transferring from. In the image below, the account is shown as account 4. It will be different depending on the number of wallets HR Department has saved on their Metamask account.
+
+
 ![](Images/metamask-prelim.png)
 
 ## Associate Profit Splitter
