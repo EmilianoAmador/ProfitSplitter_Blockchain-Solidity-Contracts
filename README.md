@@ -10,8 +10,8 @@ First, open the Remix web page ![http://remix.ethereum.org](Images/remix.png) an
 ## Associate Profit Splitter
 This contract was designed to split a set amount of funds evenly among three associate level employees. To use follow the instructions below:
 
-Once Metamask and Solidity are connected to the local network, import the AssociateProfitSplitter.sol contract. Compile it and then navigate to the "Deploy & Run Transactions" icon located on the left hand side of the page. Set the dropdowns like the ones shown below. In the deploy section, fill in the three addresses of three employees that will receive an evenly distributed amount from a total amount set by the Human Resources department. Click transact and find that the contracts will be successfully deployed. Be advised that everytime a contract is deployed a gas fee of .002 ETH is spent. This amount is equivalent to $0.85 (calculated using 1 ETH equal to $425). <br />
-
+Once Metamask and Solidity are connected to the local network, import the AssociateProfitSplitter.sol contract. Compile it and then navigate to the "Deploy & Run Transactions" icon located on the left hand side of the page. Set the dropdowns like the ones shown below. In the deploy section, fill in the three addresses of three employees that will receive an evenly distributed amount from a total amount set by the Human Resources department. Click transact and find that the contracts will be successfully deployed. Be advised that everytime a contract is deployed a gas fee of .002 ETH is spent. This amount is equivalent to $0.85 (calculated using 1 ETH equal to $425). 
+<br />
 ![](Images/remix-tps.png)
 
 Once deployed, fill in the value to be distributed and click deposit. In this test run 15 ETH were deposited; therefore, each employee should receive 5 ETH each.
