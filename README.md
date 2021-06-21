@@ -36,5 +36,4 @@ For this test run, the contract was deployed the same way as the one above. The 
 This contract follows the same principles of splitting a set amount of funds into multiple parts; however, unlike the other contracts this contract facilitates a split of a set amount among different time periods to an employee. In this example we used a set amount of 1000 ETH to be split evenly along a vesting period of 4 years. More specifically, the employee will receive 250 ETH every year he/she completes with the company until he/she reaches the end of the vesting period.
 ![](Images/deferredeqplan.png)
 
-## Future Plans For The Project
-These contracts give a company access to the benefits of blockchain technology. To improve these benefits new features must be introduced to the functionality of the contracts. One way to do this is by having the **Tiered Profit Splitter** communicate with the **Associate Profit Splitter** such that the amount produced by the 15% split in the **Tiered Profit Splitter** gets evenly distributed among the employees in the **Associate Profit Splitter**. Lastly, the contracts can be launched using a user interface so that it is more accessible to the Human Resources department.
+
