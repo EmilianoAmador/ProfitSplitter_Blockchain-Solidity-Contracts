@@ -7,9 +7,9 @@ The second contract, Tiered Profit Splitter, distributes profits among different
 
 The third contract is the deferred equity plan. This contract allows for the shares of a company to be distributed evenly throughout a period of time. For example, if a company requires that 1000 shares be distributed throughout a vesting period of 4 years, this contract will distribute the funds after each year the employee remains with the company. Let's take a closer look at each contract and how they're deployed on the ethereum network.
 
-[Click Here to view the raw code for the Solidity Contracts](https://github.com/EmilianoAmador/ProfitSplitter_Blockchain-Solidity-Contracts/tree/master/Contracts)
+[Click here for Smart Contracts' solidity code](https://github.com/EmilianoAmador/ProfitSplitter_Blockchain-Solidity-Contracts/tree/master/Contracts)
 
-### Preliminary Steps For Deploying The Contracts
+## Preliminary Steps For Deploying The Contracts
 First, open the Remix web page [![](Images/remix.png)](https://remix.ethereum.org "Click Me") and link it to the Metamask [![](Images/metamask.png)](https://metamask.io/ "Click Me") chrome plug in. On the Metamask plugin window,  choose the network that will be used to send transactions. Considering this is a testing demonstration of the contract's functionalities, Ganache [![](Images/ganache.png)](https://www.trufflesuite.com/ganache "Click Me") was used to set up a test network on the local machine; therefore, Metamask's network was set to localhost 8545 as seen on the image below. Lastly, set the account on the Metamask where funds will be transferring from. In the image below, the account is shown as account 4. It will be different depending on the number of wallets HR Department has saved on their Metamask account.
 
 
