@@ -15,7 +15,9 @@ First, open the Remix web page [![](Images/remix.png)](https://remix.ethereum.or
 
 ![](Images/metamask-preline.png)
 
-### [Associate Profit Splitter](Contracts/AssociateProfitSplitter.sol "Click to View Smart Contract")
+---
+
+## Smart Contract 1: [Associate Profit Splitter](Contracts/AssociateProfitSplitter.sol "Click For Solidity Code")
 This smart contract was designed to split a set amount of funds evenly among three associate level employees. To use, follow the instructions below:
 
 Once Metamask and Solidity are connected to the local network, import the AssociateProfitSplitter.sol contract to Remix. Compile it and then navigate to the "Deploy & Run Transactions" icon located on the left hand side of the page. Set the dropdowns like the ones shown below. In the deploy section, fill in the three addresses of three employees that will receive an evenly distributed amount from a total amount set by the Human Resources department. Click transact and find that the contracts will be successfully deployed. Be advised that everytime a contract is deployed a gas fee of .002 ETH is spent. This amount is equivalent to $0.85 (calculated using 1 ETH equal to $425). 
@@ -29,7 +31,7 @@ Note that the first account was deducted 15.002 ETH due to the gas spent when de
 
 Lastly, the balance button should always equal zero. This is due to the contract's code ensuring that all the funds get sent out. This button is necessary to verify that there aren't any ETH held in the solidity contract. 
 
-### Tiered Profit Splitter
+## Smart Contract 2: [Tiered Profit Splitter](Contracts/TieredProfitSplitter.sol "Click For Solidity Code")
 
 For this contract, the concept is the same as the previous where a set amount is split into three parts. The only difference is that this contract will divide the set amount into three different percentages. This feature allows for the funds to be distrubted among three different employees working within three different departments or in this case, tiers. The CEO will receive %60, the CTO will receive %25, and a lower tier associates receive 15% of a set amount:
 ![](Images/tieprofitsplitter.png)
@@ -37,7 +39,7 @@ For this contract, the concept is the same as the previous where a set amount is
 For this test run, the contract was deployed the same way as the one above. The amount to be distributed was set to 30 ETH; therefore, the CEO should receive 18 ETH, the CTO 7.50 ETH, and the lower level associate 4.50 ETH.
 ![](Images/tieprofitsplitter_ganache.png)
 
-### Deferred Equity Plan
+## Smart Contract 3: [Deferred Equity Plan](Contracts/DeferredEquityPlan.sol "Click For Solidity Code")
 
 This contract follows the same principles of splitting a set amount of funds into multiple parts; however, unlike the other contracts this contract facilitates a split of a set amount among different time periods to an employee. In this example we used a set amount of 1000 ETH to be split evenly along a vesting period of 4 years. More specifically, the employee will receive 250 ETH every year he/she completes with the company until he/she reaches the end of the vesting period.
 ![](Images/deferredeqplan.png)
