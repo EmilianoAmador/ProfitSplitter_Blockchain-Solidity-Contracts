@@ -10,13 +10,13 @@ The third contract is the deferred equity plan. This contract allows for the sha
 [Click Here to view the raw code for the Solidity Contracts](https://github.com/EmilianoAmador/ProfitSplitter_Blockchain-Solidity-Contracts/tree/master/Contracts)
 
 ### Preliminary Steps For Deploying The Contracts
-First, open the Remix web page [![http://remix.ethereum.org](Images/remix.png)(https://remix.ethereum.org/#optimize=false&runs=200&evmVersion=null&version=soljson-v0.8.4+commit.c7e474f2.js "Click Me") and link it to the Metamask [![](Images/metamask.png)(https://metamask.io/ "Click Me")] chrome plug in. On the Metamask plugin window,  choose the network that will be used to send transactions. Considering this is a testing demonstration of the contract's functionalities, Ganache [![](Images/ganache.png)(https://www.trufflesuite.com/ganache)] was used to set up a test network on the local machine; therefore, Metamask's network was set to localhost 8545 as seen on the image below. Lastly, set the account on the Metamask where funds will be transferring from. In the image below, the account is shown as account 4. It will be different depending on the number of wallets HR Department has saved on their Metamask account.
+First, open the Remix web page [![](Images/remix.png)](https://remix.ethereum.org "Click Me") and link it to the Metamask [![](Images/metamask.png)](https://metamask.io/ "Click Me") chrome plug in. On the Metamask plugin window,  choose the network that will be used to send transactions. Considering this is a testing demonstration of the contract's functionalities, Ganache [![](Images/ganache.png)](https://www.trufflesuite.com/ganache "Click Me") was used to set up a test network on the local machine; therefore, Metamask's network was set to localhost 8545 as seen on the image below. Lastly, set the account on the Metamask where funds will be transferring from. In the image below, the account is shown as account 4. It will be different depending on the number of wallets HR Department has saved on their Metamask account.
 
 
 ![](Images/metamask-preline.png)
 
-### Associate Profit Splitter
-This contract was designed to split a set amount of funds evenly among three associate level employees. To use, follow the instructions below:
+### [Associate Profit Splitter](Contracts/AssociateProfitSplitter.sol "Click to View Smart Contract")
+This smart contract was designed to split a set amount of funds evenly among three associate level employees. To use, follow the instructions below:
 
 Once Metamask and Solidity are connected to the local network, import the AssociateProfitSplitter.sol contract to Remix. Compile it and then navigate to the "Deploy & Run Transactions" icon located on the left hand side of the page. Set the dropdowns like the ones shown below. In the deploy section, fill in the three addresses of three employees that will receive an evenly distributed amount from a total amount set by the Human Resources department. Click transact and find that the contracts will be successfully deployed. Be advised that everytime a contract is deployed a gas fee of .002 ETH is spent. This amount is equivalent to $0.85 (calculated using 1 ETH equal to $425). 
 ![](Images/remix-tps.png)
