@@ -26,7 +26,7 @@ Once Metamask and Solidity are connected to the local network, import the Associ
 ![](Images/remix-tps.png)
 
 Once deployed, fill in the value to be distributed and click deposit. In this test run, 15 ETH were deposited; therefore, each employee should receive 5 ETH each.
-![](Images/accprofitsplitter.png)
+[![](Images/accprofitsplitter.png)](Images/accprofitsplitter.png "Click to Zoom In")
 
 Note that the first account was deducted 15.002 ETH due to the gas spent when deploying the contract. The rest of the recipient employee accounts indeed received 5 ETH each as shown below.
 ![](Images/accprofitsplitter_ganache.png)
@@ -36,7 +36,7 @@ Lastly, the balance button should always equal zero. This is due to the contract
 ## Smart Contract 2: [Tiered Profit Splitter](Contracts/TieredProfitSplitter.sol "Click For Solidity Code")
 
 Unlike contract 1, this contract divides funds into three different portions varying by percentage. This feature allows payout distribution among employees working within multiple departments or tiers. For example, the CEO will receive %60 of the funds, the CTO will receive %25, and a lower-tier associate will receive 15%.
-![](Images/tieprofitsplitter.png)
+[![](Images/tieprofitsplitter.png)](Images/tieprofitsplitter.png "Click to Zoom In")
 
 For this test run, the contract was deployed the same way as the example above. Here, the amount distributed was set to 30 ETH; therefore, the CEO received 18 ETH, the CTO 7.50 ETH, and the lower level associate 4.50 ETH as seen in the image below.
 ![](Images/tieprofitsplitter_ganache.png)
@@ -44,6 +44,6 @@ For this test run, the contract was deployed the same way as the example above. 
 ## Smart Contract 3: [Deferred Equity Plan](Contracts/DeferredEquityPlan.sol "Click For Solidity Code")
 
 This smart contract splits funds evenly and distributes them every year. In the example below, 1000 ETH was divided over a vesting period of 4 years. The employee will receive 250 ETH every year completed with the company until they reach the end of the vesting period.
-![](Images/deferredeqplan.png)
+[![](Images/deferredeqplan.png)](Images/deferredeqplan.png "Click to Zoom In")
 
 
